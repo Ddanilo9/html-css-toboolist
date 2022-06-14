@@ -107,10 +107,20 @@ li{
     border-radius: 50%;
     border: solid 2px;
     font-size: 13px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
 }
 .checklist-red{
     color: rgba(235,89,82,255);
     border-radius: 50%;
     border: solid 2px;
     font-size: 13px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
 }
