@@ -35,7 +35,7 @@ h1{
 /* inizio menu nav */
 
 .container-nav{
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     border-radius: 5px;
     background-color: white;
@@ -56,14 +56,18 @@ button{
     color: white;
     padding: 5px;
 }
+.btn-wh{
+    background-color: rgb(227, 225, 225);
+}
 
 /* lista */
 .container-list{
-    width: 800px;
+    max-width: 800px;
     height: 450px;
     margin: 0 auto;
     border-radius: 5px;
     background-color: white;
+    margin-top: 20px;
 }
 
 .container-iteml-list{
@@ -84,24 +88,11 @@ button{
     font-weight: 800;
 }
 
-.checklist-green{
-    color: rgba(115,199,179,255);
-    border-radius: 50%;
-    border-color: rgba(115,199,179,255);
-    border: solid;
-    
-}
-.checklist-red{
-    color: rgba(235,89,82,255);
-    border-radius: 50%;
-    border-color: rgba(235,89,82,255);
-    border: solid;
-}
-
 li{
-    margin: 10px 5px;
+    
     font-size: 17px;
     font-weight: 500;
+    line-height: 35px;
 }
 .highlights{
     border-radius: 15px;
@@ -109,4 +100,18 @@ li{
     padding: 5px;
     color: white;
     font-size: 14px;
+}
+
+ /* checklist */
+.checklist-green{
+    color: rgba(115,199,179,255);
+    border-radius: 50%;
+    border: solid 2px;
+    font-size: 13px;
+}
+.checklist-red{
+    color: rgba(235,89,82,255);
+    border-radius: 50%;
+    border: solid 2px;
+    font-size: 13px;
 }
