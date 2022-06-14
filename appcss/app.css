@@ -32,6 +32,13 @@ h1{
     margin-left: 15px;
 }
 
+/* inizio menu nav */
+
+.container{
+    border: 1px solid red;
+    width: 800px;
+    margin: 0 auto;
+}
 
 
 
